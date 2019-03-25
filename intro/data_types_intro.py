@@ -15,7 +15,7 @@ CGPA = 7.41
 
 
 student_details = {
-    'name': student_name,
+    'name': ["Dhruv", "Desai"],
     'enrollment_no': std_enroll_no,
     'enrolled_in': program_enrolled,
     'term_length': 4,
@@ -28,6 +28,6 @@ student_details = {
 
 
 if __name__ == "__main__": 
-    # print(student_details)
+    print(student_details['name'])
     for key, value in student_details.items():
         print(key, ": ", value)
